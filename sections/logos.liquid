@@ -1,0 +1,187 @@
+{% assign s = section %}
+{% assign ss = s.settings %}
+
+<section class="logos ten-tenths lap--twelve-tenths push-left-one-tenth lap--push-left-padding">
+  <div class="logos-container logos-container-{{section.id}}">
+    {% for block in section.blocks %}
+    <a href="{{block.settings.block_link}}" target="_blank" class="block block-d" style="max-width: {{block.settings.width_image_d}}px; max-height: {{block.settings.height_image_d}}px;">
+      {% if block.settings.logo_img !=blank %}
+        <img srcset="{%- if block.settings.logo_img.width >= 550 -%}{{ block.settings.logo_img | img_url: '550x' }} 550w,{%- endif -%}
+          {%- if block.settings.logo_img.width >= 720 -%}{{ block.settings.logo_img | img_url: '720x' }} 720w,{%- endif -%}
+          {%- if block.settings.logo_img.width >= 990 -%}{{ block.settings.logo_img | img_url: '990x' }} 990w,{%- endif -%}
+          {%- if block.settings.logo_img.width >= 1100 -%}{{ block.settings.logo_img | img_url: '1100x' }} 1100w,{%- endif -%}
+          {%- if block.settings.logo_img.width >= 1500 -%}{{ block.settings.logo_img | img_url: '1500x' }} 1500w,{%- endif -%}
+          {%- if block.settings.logo_img.width >= 2200 -%}{{ block.settings.logo_img | img_url: '2200x' }} 2200w,{%- endif -%}
+          {%- if block.settings.logo_img.width >= 3000 -%}{{ block.settings.logo_img | img_url: '3000x' }} 3000w,{%- endif -%}
+          {{ block.settings.logo_img | img_url: 'master' }} {{ block.settings.logo_img.width }}w"
+
+        src="{{block.settings.logo_img | img_url: 'medium'}}" loading="lazy" alt="{{block.settings.logo_alt}}">
+      {%- else -%}
+        <div class="svg" style="width: {{block.settings.width_image_d}}px; height: {{block.settings.height_image_d}}px">
+          {{block.settings.logo_svg}}
+        </div>
+      {%- endif -%}
+    </a>
+    <a {% if block.settings.block_link != blank %} href="{{block.settings.block_link}}" {% endif %} target="_blank" class="block block-m" style="max-width: {{block.settings.width_image_m}}px; max-height: {{block.settings.height_image_m}}px;">
+      {% if block.settings.logo_img !=blank %}
+        <img 
+        srcset="{%- if block.settings.logo_img.width >= 550 -%}{{ block.settings.logo_img | img_url: '550x' }} 550w,{%- endif -%}
+          {%- if block.settings.logo_img.width >= 720 -%}{{ block.settings.logo_img | img_url: '720x' }} 720w,{%- endif -%}
+          {%- if block.settings.logo_img.width >= 990 -%}{{ block.settings.logo_img | img_url: '990x' }} 990w,{%- endif -%}
+          {%- if block.settings.logo_img.width >= 1100 -%}{{ block.settings.logo_img | img_url: '1100x' }} 1100w,{%- endif -%}
+          {%- if block.settings.logo_img.width >= 1500 -%}{{ block.settings.logo_img | img_url: '1500x' }} 1500w,{%- endif -%}
+          {%- if block.settings.logo_img.width >= 2200 -%}{{ block.settings.logo_img | img_url: '2200x' }} 2200w,{%- endif -%}
+          {%- if block.settings.logo_img.width >= 3000 -%}{{ block.settings.logo_img | img_url: '3000x' }} 3000w,{%- endif -%}
+          {{ block.settings.logo_img | img_url: 'master' }} {{ block.settings.logo_img.width }}w"
+        src="{{block.settings.logo_img | img_url: 'medium'}}" loading="lazy" alt="{{block.settings.logo_alt}}">
+      {%- else -%}
+        <div class="svg" style="width: {{block.settings.width_image_d}}px; height: {{block.settings.height_image_d}}px">
+          {{block.settings.logo_svg}}
+        </div>
+      {%- endif -%}
+    </a>
+    {% endfor %}
+  </div>
+</section>
+
+{% style %}
+  .logos-container {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+  }
+  .logos-container-{{section.id}} {
+    grid-template-columns: repeat({{ss.range_columns_d}}, 1fr);
+  }
+
+  .block {
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    padding: 0 8px;
+  }
+
+  .block-m {
+    display: none;
+  }
+  
+
+  .block img {
+    width: 100%;
+    height: 100%;
+  }
+  .block .svg {
+    width: 100%;
+    height: 100%;
+  }
+
+  @media screen and (max-width: 750px) {
+    .logos-container-{{section.id}} {
+      grid-template-columns: repeat({{ss.range_columns_m}}, 1fr);
+    }
+    .block-d {
+      display: none;
+    }
+    .block-m {
+      display: flex;
+    }
+  }
+
+{% endstyle %}
+
+{% schema %}
+  {
+    "name": "Logos section",
+    "settings": [
+      {
+        "type": "range",
+        "id": "range_columns_d",
+        "min": 2,
+        "max": 6,
+        "step": 1,
+        "unit": "pcs",
+        "label": "Blocks per row in desktop",
+        "default": 3
+      },
+      {
+        "type": "range",
+        "id": "range_columns_m",
+        "min": 2,
+        "max": 6,
+        "step": 1,
+        "unit": "pcs",
+        "label": "Blocks per row in mobile",
+        "default": 2
+      }
+    ],
+    "blocks": [
+      {
+        "type": "blocks_logo",
+        "name": "Logo",
+        "settings": [
+          {
+            "type": "paragraph",
+            "content": "PNG image priority!"
+          },
+          {
+            "type": "image_picker",
+            "id": "logo_img",
+            "label": "Logo PNG"
+          },
+          {
+            "type": "textarea",
+            "id": "logo_svg",
+            "label": "Logo SVG"
+          },
+          {
+            "type": "url",
+            "id": "block_link",
+            "label": "Block link"
+          },
+          {
+            "type": "paragraph",
+            "content": "Desktop sizes"
+          },
+          {
+            "type": "number",
+            "id": "width_image_d",
+            "label": "Width",
+            "default": 200
+          },
+          {
+            "type": "number",
+            "id": "height_image_d",
+            "label": "Height",
+            "default": 200
+          },
+          {
+            "type": "paragraph",
+            "content": "Mobile sizes"
+          },
+          {
+            "type": "number",
+            "id": "width_image_m",
+            "label": "Width",
+            "default": 200
+          },
+          {
+            "type": "number",
+            "id": "height_image_m",
+            "label": "Height",
+            "default": 200
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "Logos",
+        "blocks": [
+          {
+            "type": "blocks_logo"
+          }
+        ]
+      }
+    ]
+  }
+{% endschema %}

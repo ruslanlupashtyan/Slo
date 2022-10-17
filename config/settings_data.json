@@ -1,0 +1,645 @@
+{
+  "current": {
+    "color_accent": "#1a267d",
+    "color_text": "#000000",
+    "color_background": "#ffffff",
+    "spartan_font_allow": true,
+    "headings_font": "roboto_n4",
+    "headings_size": 36,
+    "body_font": "roboto_n4",
+    "body_size": 24,
+    "grid_aspect": "natural",
+    "show_variant_image": true,
+    "color_sale_price": "#ea0000",
+    "favicon": "shopify:\/\/shop_images\/300px_flavicons_4.png",
+    "cart_action": "overlay",
+    "cart_notes_enable": true,
+    "cart_additional_buttons": true,
+    "predictive_search_enabled": true,
+    "predictive_search_show_vendor": false,
+    "predictive_search_show_price": true,
+    "predictive_search_include_articles": true,
+    "predictive_search_include_pages": true,
+    "social_facebook": "",
+    "social_instagram": "https:\/\/instagram.com\/extraslo",
+    "social_twitter": "https:\/\/www.twitter.com\/slo_co",
+    "social_youtube": "",
+    "social_vimeo": "",
+    "social_pinterest": "",
+    "social_tiktok": "https:\/\/slojeans.co\/www.tiktok.com\/@kristianfrommntn",
+    "social_tumblr": "",
+    "social_linkedin": "",
+    "social_reddit": "",
+    "social_flickr": "",
+    "social_email": "",
+    "checkout_header_image": "",
+    "checkout_logo_image": "",
+    "checkout_logo_position": "left",
+    "checkout_logo_size": "medium",
+    "checkout_body_background_image": "",
+    "checkout_body_background_color": "#fff",
+    "checkout_input_background_color_mode": "white",
+    "checkout_sidebar_background_image": "",
+    "checkout_sidebar_background_color": "#fafafa",
+    "checkout_heading_font": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
+    "checkout_body_font": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
+    "checkout_accent_color": "#197bbd",
+    "checkout_button_color": "#197bbd",
+    "checkout_error_color": "#e32c2b",
+    "heading_font_allow": false,
+    "body_font_allow": false,
+    "quote_font_allow": false,
+    "sections": {
+      "header": {
+        "type": "header",
+        "settings": {
+          "logo_src": "shopify:\/\/shop_images\/slo_logo_black.png",
+          "logo_height": 80,
+          "show_icon_labels": false,
+          "show_search": false,
+          "menu_primary": "main-menu-new",
+          "menu_secondary": "secondary-menu",
+          "show_social_icons": true,
+          "show_locale_selector": true,
+          "show_country_selector": true
+        }
+      },
+      "footer": {
+        "type": "footer",
+        "blocks": {
+          "83a51fca-3419-4673-9613-9505c11e0d29": {
+            "type": "text",
+            "settings": {
+              "title": "",
+              "content": "<p>everybody deserves clothes that make them feel confident and make their lives easier. <\/p>"
+            }
+          },
+          "657d0481-8a40-4d4d-a64c-1a3264f6de2a": {
+            "type": "menus",
+            "settings": {
+              "title_1": "",
+              "menu_1": "footer",
+              "title_2": "Menu",
+              "menu_2": ""
+            }
+          },
+          "cb26e229-0f34-44da-a191-022d03cc56e4": {
+            "type": "newsletter",
+            "settings": {
+              "title": "want to hear about the next launch? save the spot.",
+              "text": ""
+            }
+          }
+        },
+        "block_order": [
+          "83a51fca-3419-4673-9613-9505c11e0d29",
+          "657d0481-8a40-4d4d-a64c-1a3264f6de2a",
+          "cb26e229-0f34-44da-a191-022d03cc56e4"
+        ],
+        "settings": {
+          "show_payment_icons": true,
+          "show_locale_selector": true,
+          "show_country_selector": true
+        }
+      },
+      "text-columns-with-icons": {
+        "type": "text-columns-with-icons",
+        "blocks": {
+          "dc0e2351-9175-4503-9568-f4f102cbc798": {
+            "type": "text-icon",
+            "settings": {
+              "title": "75 trees protected per pair, 90% less water used",
+              "body": "<p>We have been given carbon neutrality status for our rainforest protection initiatives.<\/p>",
+              "svg_icon": "<svg class=\"theme-icon\" width=\"100%\" height=\"100%\" viewbox=\"0 0 48 48\" fill=\"none\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\"><path d=\"M31.54 39.1203C28.1829 41.0269 24.4002 42.0586 20.54 42.1203C17.3848 42.1163 14.3113 41.1174 11.7566 39.2657C9.20189 37.4141 7.2961 34.8041 6.31033 31.8069C5.32455 28.8097 5.30898 25.5779 6.26583 22.5713C7.22269 19.5648 9.10325 16.9365 11.64 15.0603C11.64 15.0603 16.54 10.1203 28.54 10.1203C34.0819 10.3976 39.5794 9.0041 44.32 6.12034C44.4677 6.04156 44.6326 6.00034 44.8 6.00034C44.9674 6.00034 45.1323 6.04156 45.28 6.12034C45.432 6.1836 45.5652 6.28489 45.6668 6.41448C45.7684 6.54407 45.8349 6.69761 45.86 6.86034C46.78 12.1603 48.34 29.8803 31.54 39.1203Z\" stroke=\"currentColor\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><\/path>\n<path d=\"M26.54 23.1203C20.3298 24.8361 14.5097 27.736 9.39999 31.6603L1.62 38.3003\" stroke=\"currentColor\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><\/path><\/svg>",
+              "select_icon": "shipping-box",
+              "button_text": "sustainability",
+              "button_link": "shopify:\/\/pages\/sustainability",
+              "button_style": "secondary"
+            }
+          },
+          "00665f2b-5814-4213-853b-3b6c73955a4a": {
+            "type": "text-icon",
+            "settings": {
+              "title": "4 interest free payments available",
+              "body": "<p>We aim to make slø jeans available to everyone with our flexible order now - pay later policy.<\/p>",
+              "svg_icon": "<svg class=\"theme-icon\" width=\"100%\" height=\"100%\" viewbox=\"0 0 48 48\" fill=\"none\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\"><path d=\"M45.58 29.04C45.9525 29.4147 46.1616 29.9216 46.1616 30.45C46.1616 30.9784 45.9525 31.4853 45.58 31.86L31.44 46C31.0653 46.3725 30.5584 46.5816 30.03 46.5816C29.5016 46.5816 28.9947 46.3725 28.62 46L2.41999 19.82C1.58515 18.8679 1.0924 17.6642 1.01999 16.4V3.42C1.01999 2.88957 1.2307 2.38086 1.60578 2.00579C1.98085 1.63071 2.48956 1.42 3.01999 1.42H16C17.2663 1.48309 18.473 1.97705 19.42 2.82L45.58 29.04Z\" stroke=\"currentColor\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><\/path>\n<path d=\"M11 15.42C13.2091 15.42 15 13.6291 15 11.42C15 9.21086 13.2091 7.42 11 7.42C8.79086 7.42 7 9.21086 7 11.42C7 13.6291 8.79086 15.42 11 15.42Z\" stroke=\"currentColor\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><\/path><\/svg>",
+              "select_icon": "delivery",
+              "button_text": "Shop all",
+              "button_link": "shopify:\/\/collections\/shop-all",
+              "button_style": "secondary"
+            }
+          },
+          "913a05c0-114a-4fb7-ba39-047df22f46cf": {
+            "type": "text-icon",
+            "settings": {
+              "title": "slow fashion ethically made in Italy",
+              "body": "<p>We operate with a zero waste model by only producing the clothes you order. Because there's no planet B!<\/p>",
+              "svg_icon": "<svg class=\"theme-icon\" width=\"100%\" height=\"100%\" viewbox=\"0 0 48 48\" fill=\"none\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\"><path d=\"M8.99799 7H38.998\" stroke=\"currentColor\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><\/path>\n<path d=\"M29.002 1V7\" stroke=\"currentColor\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><\/path>\n<path d=\"M19.002 1V7\" stroke=\"currentColor\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><\/path>\n<path d=\"M16 7C16 8.85652 15.2625 10.637 13.9497 11.9497C12.637 13.2625 10.8565 14 9 14\" stroke=\"currentColor\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><\/path>\n<path d=\"M32 7C32 8.85652 32.7375 10.637 34.0503 11.9497C35.363 13.2625 37.1435 14 39 14\" stroke=\"currentColor\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><\/path>\n<path d=\"M38 1H10C9.73478 1 9.48043 1.10536 9.29289 1.29289C9.10536 1.48043 9 1.73478 9 2V46C9 46.2652 9.10536 46.5196 9.29289 46.7071C9.48043 46.8946 9.73478 47 10 47H20C20.2652 47 20.5196 46.8946 20.7071 46.7071C20.8946 46.5196 21 46.2652 21 46V21C21 19.75 22.896 19 24 19C25.104 19 27 19.75 27 21V46C27 46.2652 27.1054 46.5196 27.2929 46.7071C27.4804 46.8946 27.7348 47 28 47H38C38.2652 47 38.5196 46.8946 38.7071 46.7071C38.8946 46.5196 39 46.2652 39 46V2C39 1.73478 38.8946 1.48043 38.7071 1.29289C38.5196 1.10536 38.2652 1 38 1Z\" stroke=\"currentColor\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><\/path><\/svg>",
+              "select_icon": "time-limit",
+              "button_text": "GET SIZED",
+              "button_link": "shopify:\/\/pages\/your-sizing-options",
+              "button_style": "secondary"
+            }
+          }
+        },
+        "block_order": [
+          "dc0e2351-9175-4503-9568-f4f102cbc798",
+          "00665f2b-5814-4213-853b-3b6c73955a4a",
+          "913a05c0-114a-4fb7-ba39-047df22f46cf"
+        ],
+        "settings": {
+          "show_on_homepage": false,
+          "show_on_product": false,
+          "show_on_collection": true,
+          "show_on_blog": true,
+          "show_on_regular": true
+        }
+      },
+      "announcement-bar": {
+        "type": "announcement-bar",
+        "settings": {
+          "bar_show": true,
+          "bar_show_on_homepage": true,
+          "bar_show_dismiss": true,
+          "bar_message": "flat rate $5 worldwide shipping",
+          "bar_link": "shopify:\/\/collections\/shop-all",
+          "bar_bgcolor": "#000000",
+          "bar_txtcolor": "#ffffff"
+        }
+      },
+      "gift-card": {
+        "type": "gift-card",
+        "settings": {
+          "logo_src": "",
+          "logo_height": 40
+        }
+      },
+      "popup": {
+        "type": "popup",
+        "settings": {
+          "title": "Popup",
+          "content": "<p>Stay up to date on the latest product releases, special offers & news by signing up for our newsletter.<\/p><p>Read our <a href='#'>privacy policy<\/a>.<\/p>",
+          "newsletter_enable": true,
+          "popup_enable": false,
+          "newsletter_auto": 10,
+          "newsletter_frequent": "week",
+          "popup_bgcolor": "#111111",
+          "popup_txtcolor": "#ffffff"
+        }
+      }
+    },
+    "content_for_index": [],
+    "blocks": {
+      "14656832010101544780": {
+        "type": "shopify:\/\/apps\/advanced-product-options\/blocks\/app-embed-block\/a1199153-7462-4b5b-8a80-f0eefba85e99",
+        "disabled": false,
+        "settings": {}
+      }
+    }
+  },
+  "presets": {
+    "Modern": {
+      "color_accent": "#3f14e1",
+      "color_text": "#000000",
+      "color_background": "#ffffff",
+      "headings_font": "roboto_n4",
+      "body_font": "roboto_n4",
+      "body_size": 18,
+      "headings_size": 36,
+      "grid_aspect": "natural",
+      "show_variant_image": true,
+      "color_sale_price": "#ea0000",
+      "favicon": "",
+      "cart_action": "overlay",
+      "cart_notes_enable": true,
+      "cart_additional_buttons": true,
+      "predictive_search_enabled": true,
+      "predictive_search_show_vendor": false,
+      "predictive_search_show_price": true,
+      "predictive_search_include_articles": true,
+      "predictive_search_include_pages": true,
+      "social_facebook": "",
+      "social_instagram": "",
+      "social_twitter": "",
+      "social_youtube": "",
+      "social_vimeo": "",
+      "social_pinterest": "",
+      "social_tumblr": "",
+      "social_linkedin": "",
+      "social_reddit": "",
+      "social_flickr": "",
+      "social_email": "",
+      "checkout_header_image": "",
+      "checkout_logo_image": "",
+      "checkout_logo_position": "left",
+      "checkout_logo_size": "medium",
+      "checkout_body_background_image": "",
+      "checkout_body_background_color": "#fff",
+      "checkout_input_background_color_mode": "white",
+      "checkout_sidebar_background_image": "",
+      "checkout_sidebar_background_color": "#fafafa",
+      "checkout_heading_font": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
+      "checkout_body_font": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
+      "checkout_accent_color": "#197bbd",
+      "checkout_button_color": "#197bbd",
+      "checkout_error_color": "#e32c2b",
+      "sections": {
+        "header": {
+          "type": "header",
+          "settings": {
+            "logo_src": "",
+            "logo_height": 50,
+            "menu_primary": "main-menu",
+            "menu_secondary": "",
+            "show_search": true,
+            "show_social_icons": true,
+            "show_locale_selector": true,
+            "show_country_selector": true
+          }
+        },
+        "footer": {
+          "type": "footer",
+          "blocks": {
+            "83a51fca-3419-4673-9613-9505c11e0d29": {
+              "type": "text",
+              "settings": {
+                "title": "About",
+                "content": "<p>Write a short statement about your brand.<\/p>"
+              }
+            },
+            "657d0481-8a40-4d4d-a64c-1a3264f6de2a": {
+              "type": "menus",
+              "settings": {
+                "title_1": "LINKS",
+                "menu_1": "footer"
+              }
+            },
+            "cb26e229-0f34-44da-a191-022d03cc56e4": {
+              "type": "newsletter",
+              "settings": {
+                "title": "Newsletter"
+              }
+            }
+          },
+          "block_order": [
+            "83a51fca-3419-4673-9613-9505c11e0d29",
+            "657d0481-8a40-4d4d-a64c-1a3264f6de2a",
+            "cb26e229-0f34-44da-a191-022d03cc56e4"
+          ],
+          "settings": {
+            "show_payment_icons": true,
+            "show_locale_selector": true,
+            "show_country_selector": true
+          }
+        },
+        "text-columns-with-icons": {
+          "type": "text-columns-with-icons",
+          "blocks": {
+            "dc0e2351-9175-4503-9568-f4f102cbc798": {
+              "type": "text-icon",
+              "settings": {
+                "title": "Shipping",
+                "body": "<p>Write some useful information about your shipping details<\/p><p>Link to your <a href='#'>shipping policy<\/a>.<\/p>",
+                "select_icon": "shipping-box"
+              }
+            },
+            "00665f2b-5814-4213-853b-3b6c73955a4a": {
+              "type": "text-icon",
+              "settings": {
+                "title": "Delivery",
+                "body": "<p>Let your customers know if you offer free delivery for certain types of orders<\/p><p>Link to your <a href='#'>offers page<\/a>.<\/p>",
+                "select_icon": "delivery"
+              }
+            },
+            "913a05c0-114a-4fb7-ba39-047df22f46cf": {
+              "type": "text-icon",
+              "settings": {
+                "title": "Returns",
+                "body": "<p>Show customers how much time they have for testing your products<\/p><p>Link to your <a href='#'>returns policy<\/a>.<\/p>",
+                "select_icon": "time-limit"
+              }
+            }
+          },
+          "block_order": [
+            "dc0e2351-9175-4503-9568-f4f102cbc798",
+            "00665f2b-5814-4213-853b-3b6c73955a4a",
+            "913a05c0-114a-4fb7-ba39-047df22f46cf"
+          ],
+          "settings": {
+            "show_on_homepage": true,
+            "show_on_product": true,
+            "show_on_collection": true,
+            "show_on_blog": true,
+            "show_on_regular": true
+          }
+        },
+        "announcement-bar": {
+          "type": "announcement-bar",
+          "settings": {
+            "bar_show": true,
+            "bar_show_on_homepage": true,
+            "bar_show_dismiss": true,
+            "bar_message": "Use this bar for a short, important announcement.",
+            "bar_bgcolor": "#000000",
+            "bar_txtcolor": "#ffffff"
+          }
+        },
+        "gift-card": {
+          "type": "gift-card",
+          "settings": {
+            "logo_src": "",
+            "logo_height": 40
+          }
+        }
+      }
+    },
+    "Single": {
+      "color_accent": "#ffffff",
+      "color_text": "#d3d6c7",
+      "color_background": "#34362b",
+      "headings_font": "roboto_n4",
+      "headings_size": 36,
+      "body_font": "roboto_mono_n4",
+      "body_size": 16,
+      "quote_font": "swiss_721_n1",
+      "grid_aspect": "natural",
+      "show_variant_image": true,
+      "color_sale_price": "#c1cf89",
+      "favicon": "",
+      "cart_action": "overlay",
+      "cart_notes_enable": true,
+      "cart_additional_buttons": true,
+      "predictive_search_enabled": true,
+      "predictive_search_show_vendor": false,
+      "predictive_search_show_price": true,
+      "predictive_search_include_articles": true,
+      "predictive_search_include_pages": true,
+      "social_facebook": "",
+      "social_instagram": "",
+      "social_twitter": "",
+      "social_youtube": "",
+      "social_vimeo": "",
+      "social_pinterest": "",
+      "social_tumblr": "",
+      "social_linkedin": "",
+      "social_reddit": "",
+      "social_flickr": "",
+      "social_email": "",
+      "checkout_header_image": "",
+      "checkout_logo_image": "",
+      "checkout_logo_position": "left",
+      "checkout_logo_size": "medium",
+      "checkout_body_background_image": "",
+      "checkout_body_background_color": "#fff",
+      "checkout_input_background_color_mode": "white",
+      "checkout_sidebar_background_image": "",
+      "checkout_sidebar_background_color": "#fafafa",
+      "checkout_heading_font": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
+      "checkout_body_font": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
+      "checkout_accent_color": "#197bbd",
+      "checkout_button_color": "#197bbd",
+      "checkout_error_color": "#e32c2b",
+      "sections": {
+        "header": {
+          "type": "header",
+          "settings": {
+            "logo_src": "",
+            "logo_height": 50,
+            "menu_primary": "main-menu",
+            "menu_secondary": "",
+            "show_social_icons": true,
+            "show_locale_selector": true,
+            "show_country_selector": true
+          }
+        },
+        "footer": {
+          "type": "footer",
+          "blocks": {
+            "83a51fca-3419-4673-9613-9505c11e0d29": {
+              "type": "text",
+              "settings": {
+                "title": "About",
+                "content": "<p>Write a short statement about your brand.<\/p>"
+              }
+            },
+            "657d0481-8a40-4d4d-a64c-1a3264f6de2a": {
+              "type": "menus",
+              "settings": {
+                "title_1": "LINKS",
+                "menu_1": "footer",
+                "title_2": "",
+                "menu_2": ""
+              }
+            },
+            "cb26e229-0f34-44da-a191-022d03cc56e4": {
+              "type": "newsletter",
+              "settings": {
+                "title": "Newsletter",
+                "text": "<p>Invite customers to join your newsletter.<br\/>Link to your <a href='#'>privacy policy<\/a>.<\/p>"
+              }
+            }
+          },
+          "block_order": [
+            "83a51fca-3419-4673-9613-9505c11e0d29",
+            "657d0481-8a40-4d4d-a64c-1a3264f6de2a",
+            "cb26e229-0f34-44da-a191-022d03cc56e4"
+          ],
+          "settings": {
+            "show_payment_icons": true,
+            "show_locale_selector": true,
+            "show_country_selector": true
+          }
+        },
+        "text-columns-with-icons": {
+          "type": "text-columns-with-icons",
+          "blocks": {
+            "dc0e2351-9175-4503-9568-f4f102cbc798": {
+              "type": "text-icon",
+              "settings": {
+                "title": "Shipping",
+                "body": "<p>Write some useful information about your shipping details<\/p><p>Link to your <a href='#'>shipping policy<\/a>.<\/p>",
+                "select_icon": "shipping-box"
+              }
+            },
+            "00665f2b-5814-4213-853b-3b6c73955a4a": {
+              "type": "text-icon",
+              "settings": {
+                "title": "Delivery",
+                "body": "<p>Let your customers know if you offer free delivery for certain types of orders<\/p><p>Link to your <a href='#'>offers page<\/a>.<\/p>",
+                "select_icon": "delivery"
+              }
+            },
+            "913a05c0-114a-4fb7-ba39-047df22f46cf": {
+              "type": "text-icon",
+              "settings": {
+                "title": "Returns",
+                "body": "<p>Show customers how much time they have for testing your products<\/p><p>Link to your <a href='#'>returns policy<\/a>.<\/p>",
+                "select_icon": "time-limit"
+              }
+            }
+          },
+          "block_order": [
+            "dc0e2351-9175-4503-9568-f4f102cbc798",
+            "00665f2b-5814-4213-853b-3b6c73955a4a",
+            "913a05c0-114a-4fb7-ba39-047df22f46cf"
+          ],
+          "settings": {
+            "show_on_homepage": true,
+            "show_on_product": true,
+            "show_on_collection": true,
+            "show_on_blog": true,
+            "show_on_regular": true
+          }
+        },
+        "announcement-bar": {
+          "type": "announcement-bar",
+          "settings": {
+            "bar_show": true,
+            "bar_show_on_homepage": true,
+            "bar_show_dismiss": true,
+            "bar_message": "Use this bar for a short, important announcement.",
+            "bar_link": "shopify:\/\/collections\/all",
+            "bar_bgcolor": "#25261d",
+            "bar_txtcolor": "#ffffff"
+          }
+        },
+        "popup": {
+          "type": "popup",
+          "settings": {
+            "title": "Popup",
+            "content": "<p>Stay up to date on the latest product releases, special offers & news by signing up for our newsletter.<\/p><p>Read our <a href='#'>privacy policy<\/a>.<\/p>",
+            "newsletter_enable": true,
+            "popup_enable": false,
+            "newsletter_auto": 10,
+            "newsletter_frequent": "week",
+            "popup_bgcolor": "#111111",
+            "popup_txtcolor": "#ffffff"
+          }
+        }
+      }
+    },
+    "Art": {
+      "color_accent": "#147d3b",
+      "color_text": "#000000",
+      "color_background": "#efefef",
+      "headings_font": "cardo_n4",
+      "headings_size": 36,
+      "body_font": "roboto_n4",
+      "body_size": 18,
+      "grid_aspect": "natural",
+      "product_animation": "product-item--move",
+      "product_show_secondary": false,
+      "show_variant_image": true,
+      "color_sale_price": "#dc0000",
+      "image_reveal": "opacity",
+      "favicon": "",
+      "cart_action": "overlay",
+      "cart_notes_enable": true,
+      "cart_additional_buttons": true,
+      "cart_quantity_selector": false,
+      "predictive_search_enabled": false,
+      "predictive_search_show_vendor": false,
+      "predictive_search_show_price": true,
+      "predictive_search_include_articles": false,
+      "predictive_search_include_pages": false,
+      "social_facebook": "",
+      "social_instagram": "",
+      "social_twitter": "",
+      "social_youtube": "",
+      "social_vimeo": "",
+      "social_pinterest": "",
+      "social_tumblr": "",
+      "social_linkedin": "",
+      "social_reddit": "",
+      "social_flickr": "",
+      "social_email": "",
+      "checkout_header_image": "",
+      "checkout_logo_image": "",
+      "checkout_logo_position": "left",
+      "checkout_logo_size": "medium",
+      "checkout_body_background_image": "",
+      "checkout_body_background_color": "#fff",
+      "checkout_input_background_color_mode": "white",
+      "checkout_sidebar_background_image": "",
+      "checkout_sidebar_background_color": "#fafafa",
+      "checkout_heading_font": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
+      "checkout_body_font": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
+      "checkout_accent_color": "#197bbd",
+      "checkout_button_color": "#197bbd",
+      "checkout_error_color": "#e32c2b",
+      "sections": {
+        "header": {
+          "type": "header",
+          "settings": {
+            "logo_src": "",
+            "logo_height": 50,
+            "show_icon_labels": false,
+            "menu_primary": "main-menu",
+            "menu_secondary": "",
+            "show_social_icons": true,
+            "show_locale_selector": true,
+            "show_country_selector": true
+          }
+        },
+        "footer": {
+          "type": "footer",
+          "blocks": {
+            "cdb6f407-a5da-4d24-9e44-6fbc2156dae9": {
+              "type": "text",
+              "settings": {
+                "title": "About",
+                "content": "<p>Write a short statement about your brand.<\/p>"
+              }
+            },
+            "c931c7a9-fe5b-41dd-8e23-da04cb966b98": {
+              "type": "social",
+              "settings": {
+                "title": "Follow me"
+              }
+            }
+          },
+          "block_order": [
+            "cdb6f407-a5da-4d24-9e44-6fbc2156dae9",
+            "c931c7a9-fe5b-41dd-8e23-da04cb966b98"
+          ],
+          "settings": {
+            "show_payment_icons": false,
+            "show_locale_selector": false,
+            "show_country_selector": false
+          }
+        },
+        "announcement-bar": {
+          "type": "announcement-bar",
+          "settings": {
+            "bar_show": false,
+            "bar_show_on_homepage": true,
+            "bar_show_dismiss": true,
+            "bar_message": "Use this bar for a short, important announcement.",
+            "bar_bgcolor": "#000000",
+            "bar_txtcolor": "#ffffff"
+          }
+        },
+        "gift-card": {
+          "type": "gift-card",
+          "settings": {
+            "logo_src": "",
+            "logo_height": 40
+          }
+        },
+        "popup": {
+          "type": "popup",
+          "settings": {
+            "title": "Stay updated!",
+            "content": "<p>Stay up to date on the latest product releases, special offers &amp; news by signing up for our newsletter.<\/p><p>Read our <a href=\"#\">privacy policy<\/a>.<\/p>",
+            "newsletter_enable": true,
+            "popup_enable": true,
+            "newsletter_auto": 10,
+            "newsletter_frequent": "week",
+            "popup_bgcolor": "#111111",
+            "popup_txtcolor": "#ffffff"
+          }
+        }
+      }
+    }
+  }
+}

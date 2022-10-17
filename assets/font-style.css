@@ -1,0 +1,26 @@
+@font-face {
+  font-family: 'League Spartan Med';
+  src: url('LeagueSpartan-Medium.woff2') format('woff2'),
+      url('LeagueSpartan-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'League Spartan Light';
+  src: url('LeagueSpartan-Light.woff2') format('woff2'),
+      url('LeagueSpartan-Light.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+h1, h2, h3, h4, h5, h6, .h3.bold, .h1, .h2, .h3, .h4, .h5, .h6{
+  font-family: 'League Spartan Med' !important;
+}
+
+body, a, p, input, button, button span, a span,
+.h3.light{
+  font-family: 'League Spartan light' !important;
+}

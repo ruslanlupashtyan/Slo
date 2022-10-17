@@ -1,0 +1,432 @@
+{
+  "sections": {
+    "1632399018db751388": {
+      "type": "slider-vertical",
+      "blocks": {
+        "1632399018db751388-0": {
+          "type": "image",
+          "settings": {
+            "heading": "slø = genderless.",
+            "caption": "who are we to label <br>something by gender? <br><br>buy what you want, <br>wear what you want, <br>and we'll make sure it fits.",
+            "button_label": "Shop all",
+            "button_link": "shopify:\/\/collections\/shop-all",
+            "image1": "shopify:\/\/shop_images\/15_000.jpg",
+            "video1": "",
+            "image1_caption": "<p>slow fashion ― ethically made in italy ― $5 worldwide shipping ― 90% less water consumption<\/p>",
+            "image1_link": "",
+            "video2": "",
+            "image2_caption": "",
+            "image2_link": "",
+            "video3": "",
+            "image3_caption": "",
+            "image3_link": ""
+          }
+        },
+        "1632399018db751388-1": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "heading": "Write about yourself",
+            "caption": "Include some awesome images",
+            "button_label": "Learn more",
+            "button_link": "",
+            "video1": "",
+            "image1_caption": "",
+            "image1_link": "",
+            "video2": "",
+            "image2_caption": "",
+            "image2_link": "",
+            "video3": "",
+            "image3_caption": "",
+            "image3_link": ""
+          }
+        },
+        "1632399018db751388-2": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "heading": "Promote your products",
+            "caption": "Include various promotions and flash sales",
+            "button_label": "Shop now",
+            "button_link": "",
+            "video1": "",
+            "image1_caption": "",
+            "image1_link": "",
+            "video2": "",
+            "image2_caption": "",
+            "image2_link": "",
+            "video3": "",
+            "image3_caption": "",
+            "image3_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1632399018db751388-0",
+        "1632399018db751388-1",
+        "1632399018db751388-2"
+      ],
+      "settings": {
+        "text_size": "large",
+        "blending_modes": true
+      }
+    },
+    "163239902249095ea8": {
+      "type": "featured-collection",
+      "settings": {
+        "heading": "pick your slø color",
+        "caption": "starting at only $65",
+        "collection": "shop-all",
+        "show_view_all": false,
+        "layout": "regular",
+        "products_number": 12,
+        "show_promotional_block": true,
+        "promotional_block_title": "Write a short, captivating paragraph about your products. Or write about your current offers.",
+        "promotional_block_button_label": "",
+        "promotional_block_button_link": ""
+      }
+    },
+    "1632399064cfd08326": {
+      "type": "images-with-text-overlay",
+      "disabled": true,
+      "blocks": {
+        "1632399064cfd08326-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/5_7a539a09-c0b6-48e9-8f36-a524efb447d7.jpg",
+            "alignment": "50% 50%",
+            "heading": "marinø",
+            "description": "",
+            "button_label": "",
+            "button_link": "shopify:\/\/products\/neutro-high-rise-cielo"
+          }
+        },
+        "1632399064cfd08326-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Untitled_design_6_e39923d8-03a5-43d7-b04a-6bc61c2d5a11.jpg",
+            "alignment": "50% 50%",
+            "heading": "cielø",
+            "description": "",
+            "button_label": "",
+            "button_link": "shopify:\/\/products\/neutro-high-rise-cielo"
+          }
+        },
+        "1632399064cfd08326-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/14.jpg",
+            "alignment": "50% 0%",
+            "heading": "nerø",
+            "description": "",
+            "button_label": "",
+            "button_link": "shopify:\/\/products\/neutro-high-rise-cielo"
+          }
+        },
+        "45d5c6a8-c34a-43df-82d4-c6b57da4e647": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "alignment": "50% 50%",
+            "heading": "Write your Story",
+            "description": "<p>Give a freebie<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1632399064cfd08326-0",
+        "1632399064cfd08326-1",
+        "1632399064cfd08326-2",
+        "45d5c6a8-c34a-43df-82d4-c6b57da4e647"
+      ],
+      "settings": {
+        "title": "Pick a color",
+        "layout": "regular",
+        "text_alignment": "horizontal-left vertical-bottom",
+        "color_text": "#ffffff",
+        "color_bg": ""
+      }
+    },
+    "7878747a-2be4-4c48-9967-efa8d4454006": {
+      "type": "logos",
+      "blocks": {
+        "template--16510209753343__7878747a-2be4-4c48-9967-efa8d4454006-1665744455724b9293-0": {
+          "type": "blocks_logo",
+          "settings": {
+            "logo_img": "shopify:\/\/shop_images\/Untitled_design_79.png",
+            "logo_svg": "",
+            "block_link": "",
+            "width_image_d": 160,
+            "height_image_d": 200,
+            "width_image_m": 100,
+            "height_image_m": 200
+          }
+        },
+        "50dca03b-05e4-4a75-a18e-f3b6e5d2ea99": {
+          "type": "blocks_logo",
+          "settings": {
+            "logo_img": "shopify:\/\/shop_images\/BC-Logo_Black_Landscape-300x128-1.png",
+            "logo_svg": "",
+            "block_link": "",
+            "width_image_d": 130,
+            "height_image_d": 52,
+            "width_image_m": 100,
+            "height_image_m": 200
+          }
+        },
+        "cdbbd090-ced9-4dfe-a40f-9700dfdf869d": {
+          "type": "blocks_logo",
+          "settings": {
+            "logo_img": "shopify:\/\/shop_images\/Untitled_design_78.png",
+            "logo_svg": "",
+            "block_link": "",
+            "width_image_d": 140,
+            "height_image_d": 200,
+            "width_image_m": 100,
+            "height_image_m": 200
+          }
+        },
+        "a786a830-349a-4751-a722-c4c7e00a2ca8": {
+          "type": "blocks_logo",
+          "settings": {
+            "logo_img": "shopify:\/\/shop_images\/Biodegradable-logo.png",
+            "logo_svg": "",
+            "block_link": "",
+            "width_image_d": 100,
+            "height_image_d": 200,
+            "width_image_m": 55,
+            "height_image_m": 200
+          }
+        },
+        "7e6a1981-a323-40a7-97d8-ebee458fb503": {
+          "type": "blocks_logo",
+          "settings": {
+            "logo_img": "shopify:\/\/shop_images\/Untitled_design_81.png",
+            "logo_svg": "",
+            "block_link": "",
+            "width_image_d": 120,
+            "height_image_d": 200,
+            "width_image_m": 70,
+            "height_image_m": 200
+          }
+        }
+      },
+      "block_order": [
+        "template--16510209753343__7878747a-2be4-4c48-9967-efa8d4454006-1665744455724b9293-0",
+        "50dca03b-05e4-4a75-a18e-f3b6e5d2ea99",
+        "cdbbd090-ced9-4dfe-a40f-9700dfdf869d",
+        "a786a830-349a-4751-a722-c4c7e00a2ca8",
+        "7e6a1981-a323-40a7-97d8-ebee458fb503"
+      ],
+      "settings": {
+        "range_columns_d": 5,
+        "range_columns_m": 5
+      }
+    },
+    "1632399060f8a46941": {
+      "type": "heading",
+      "blocks": {
+        "2320e91a-0c28-450b-84e8-4ea0be637c8d": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Hayley-Elsaesser-inline-2.jpg"
+          }
+        },
+        "3ed17868-606c-49fb-84cb-0008313cd00d": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/11.jpg"
+          }
+        },
+        "b6383b63-22dc-42f1-931b-e9331fcc3f93": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/8.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "2320e91a-0c28-450b-84e8-4ea0be637c8d",
+        "3ed17868-606c-49fb-84cb-0008313cd00d",
+        "b6383b63-22dc-42f1-931b-e9331fcc3f93"
+      ],
+      "settings": {
+        "title": "slø = community",
+        "content": "<p>we asked people to describe their dream jeans. 700,000 suggestions, 800,000 followers, 20m views, $370k raised, 100,00+ waitlisted, and thousands of hours of work later... here we are!<\/p>",
+        "button_label": "The best jeans has arrived",
+        "button_link": "",
+        "text_alignment": "center",
+        "text_size": "large"
+      }
+    },
+    "16323991357ee39f75": {
+      "type": "heading",
+      "disabled": true,
+      "settings": {
+        "title": "Introduce a",
+        "content": "<p><strong>Big, bold call to action<\/strong><\/p>",
+        "button_label": "Learn more",
+        "button_link": "",
+        "text_alignment": "center",
+        "text_size": "extra"
+      }
+    },
+    "1632399157698a4648": {
+      "type": "video-popup",
+      "disabled": true,
+      "settings": {
+        "title": "Video popup",
+        "video": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc"
+      }
+    },
+    "16323991613c782d33": {
+      "type": "featured-product",
+      "disabled": true,
+      "blocks": {
+        "16323991613c782d33-0": {
+          "type": "header",
+          "settings": {
+            "show_vendor": true,
+            "show_reviews": true,
+            "show_tax_info": false,
+            "show_sku": false,
+            "show_barcode": false,
+            "stick_product_header_on_mobile": true
+          }
+        },
+        "16323991613c782d33-1": {
+          "type": "variant_picker",
+          "settings": {
+            "variants_style": "radio",
+            "show_color_swatches": true,
+            "show_quantities": "no"
+          }
+        },
+        "16323991613c782d33-2": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "show_quantity_selector": true
+          }
+        },
+        "16323991613c782d33-3": {
+          "type": "product_link",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "16323991613c782d33-0",
+        "16323991613c782d33-1",
+        "16323991613c782d33-2",
+        "16323991613c782d33-3"
+      ],
+      "settings": {
+        "product": "",
+        "media_aspect": "natural",
+        "enable_zoom": true,
+        "enable_video_looping": false
+      }
+    },
+    "1628782268aab83134": {
+      "type": "blog-posts",
+      "disabled": true,
+      "blocks": {
+        "3a12076c-f97c-4b6a-84a8-afed7e50b9ef": {
+          "type": "info",
+          "settings": {
+            "show_date": true,
+            "show_author": false
+          }
+        },
+        "062a779c-0a2e-47d3-992a-a4901edc79fe": {
+          "type": "title",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "3a12076c-f97c-4b6a-84a8-afed7e50b9ef",
+        "062a779c-0a2e-47d3-992a-a4901edc79fe"
+      ],
+      "settings": {
+        "title": "Latest Articles",
+        "blog": "",
+        "post_limit": 4,
+        "blog_show_image": true,
+        "show_view_all": true
+      }
+    },
+    "1632399166bb4a0006": {
+      "type": "collection-list",
+      "disabled": true,
+      "blocks": {
+        "1632399166bb4a0006-0": {
+          "type": "collection",
+          "settings": {
+            "collection": ""
+          }
+        },
+        "1632399166bb4a0006-1": {
+          "type": "collection",
+          "settings": {
+            "collection": ""
+          }
+        },
+        "fd957d20-4aed-4356-b71a-1e79cc9014bd": {
+          "type": "collection",
+          "settings": {
+            "collection": ""
+          }
+        }
+      },
+      "block_order": [
+        "1632399166bb4a0006-0",
+        "1632399166bb4a0006-1",
+        "fd957d20-4aed-4356-b71a-1e79cc9014bd"
+      ],
+      "settings": {
+        "title": "Collection list"
+      }
+    },
+    "16642335507ff52230": {
+      "type": "images-with-text-overlay",
+      "disabled": true,
+      "blocks": {
+        "166423355008ca71b7-0": {
+          "type": "image",
+          "settings": {
+            "alignment": "50% 50%",
+            "heading": "Write your Story",
+            "description": "<p>Write some information about your brand, products or story.<\/p>",
+            "button_label": "Click me Button!",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "166423355008ca71b7-0"
+      ],
+      "settings": {
+        "title": "Images with text overlay",
+        "layout": "asymmetrical",
+        "text_alignment": "horizontal-center vertical-bottom",
+        "color_text": "",
+        "color_bg": ""
+      }
+    }
+  },
+  "order": [
+    "1632399018db751388",
+    "163239902249095ea8",
+    "1632399064cfd08326",
+    "7878747a-2be4-4c48-9967-efa8d4454006",
+    "1632399060f8a46941",
+    "16323991357ee39f75",
+    "1632399157698a4648",
+    "16323991613c782d33",
+    "1628782268aab83134",
+    "1632399166bb4a0006",
+    "16642335507ff52230"
+  ]
+}

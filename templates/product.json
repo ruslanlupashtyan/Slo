@@ -1,0 +1,422 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "header": {
+          "type": "header",
+          "settings": {
+            "show_vendor": false,
+            "show_reviews": true,
+            "show_tax_info": false,
+            "show_sku": false,
+            "show_barcode": false,
+            "stick_product_header_on_mobile": false
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "variants_style": "radio",
+            "show_color_swatches": true,
+            "show_quantities": "no"
+          }
+        },
+        "211f92be-1727-4658-9e54-f83f6d3b5c05": {
+          "type": "customize_jeans",
+          "settings": {
+            "customize_title": "Title here"
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "show_quantity_selector": false
+          }
+        },
+        "pickup_avaiability": {
+          "type": "pickup_avaiability",
+          "settings": {}
+        },
+        "description": {
+          "type": "description",
+          "settings": {}
+        },
+        "9747ca3e-8039-4824-9e7c-9689bf83b243": {
+          "type": "collapse_product",
+          "settings": {
+            "collapse_head": "",
+            "collapse_title": "fabric details",
+            "collapse_text": "<p>99% cotton, 1% EL Our fabric is sourced locally in Napoli, Italy, from one of the world’s largest fabric distributors. They have over 20,000,000 yards of denim in stock from dozens of countries worldwide at any given time, and have been the primary provider to some of Italy’s premier fashion houses for almost 100 years.<\/p>",
+            "collapse_svg": "<svg class=\"theme-icon\" width=\"100%\" height=\"100%\" viewbox=\"0 0 48 48\" fill=\"none\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\"><path d=\"M32.6 13.6803C32.9498 13.7238 33.3045 13.6612 33.6183 13.5008C33.9321 13.3403 34.1905 13.0893 34.36 12.7803L40.36 2.02034C40.5337 1.71141 40.7863 1.45417 41.092 1.27495C41.3977 1.09572 41.7456 1.00096 42.1 1.00035H44C44.3327 0.999185 44.6604 1.08103 44.9535 1.23846C45.2465 1.3959 45.4957 1.62396 45.6784 1.90198C45.8611 2.18 45.9715 2.4992 45.9998 2.83068C46.028 3.16216 45.9731 3.49544 45.84 3.80034L38.72 20.1803C37.6221 22.7044 37.0569 25.4279 37.06 28.1803C36.7887 30.6384 37.2478 33.1218 38.38 35.3203L43.28 44.0203C43.455 44.3235 43.5474 44.6673 43.548 45.0173C43.5485 45.3674 43.4571 45.7115 43.283 46.0151C43.1089 46.3188 42.8581 46.5715 42.5558 46.7479C42.2534 46.9243 41.9101 47.0182 41.56 47.0203H38.76C38.267 47.0245 37.7898 46.8465 37.42 46.5203L29 39.0003L25.42 42.5803C25.2341 42.7678 25.0129 42.9166 24.7692 43.0181C24.5254 43.1197 24.264 43.1719 24 43.1719C23.736 43.1719 23.4746 43.1197 23.2308 43.0181C22.9871 42.9166 22.7659 42.7678 22.58 42.5803L19 39.0003L10.56 46.5003C10.1954 46.8219 9.72615 46.9996 9.24 47.0003H6.44C6.09117 46.9997 5.74856 46.9079 5.44619 46.734C5.14382 46.56 4.8922 46.31 4.71631 46.0088C4.54041 45.7076 4.44637 45.3656 4.44351 45.0167C4.44065 44.6679 4.52907 44.3244 4.7 44.0203L9.68 35.3203C10.8122 33.1218 11.2713 30.6384 11 28.1803C11.0031 25.4279 10.4379 22.7044 9.34 20.1803L2.22 3.80034C2.08881 3.50006 2.03341 3.17215 2.05868 2.84543C2.08395 2.51872 2.18911 2.20322 2.36491 1.92668C2.54071 1.65014 2.78176 1.42103 3.06688 1.25951C3.35199 1.09798 3.67243 1.00898 4 1.00035H5.78C6.14451 0.990114 6.50488 1.07973 6.82214 1.25951C7.1394 1.43929 7.40146 1.70239 7.58 2.02034L13.58 12.7803C13.7495 13.0893 14.0079 13.3403 14.3217 13.5008C14.6355 13.6612 14.9902 13.7238 15.34 13.6803C15.6117 13.6469 15.8737 13.558 16.1096 13.4192C16.3456 13.2803 16.5505 13.0946 16.7118 12.8733C16.873 12.6521 16.9871 12.4001 17.047 12.133C17.1069 11.8658 17.1113 11.5893 17.06 11.3203C16.8704 10.3094 16.9058 9.26904 17.1639 8.27335C17.422 7.27766 17.8964 6.35108 18.5533 5.55953C19.2101 4.76799 20.0334 4.13093 20.9644 3.69369C21.8954 3.25645 22.9114 3.02976 23.94 3.02976C24.9686 3.02976 25.9846 3.25645 26.9156 3.69369C27.8466 4.13093 28.6699 4.76799 29.3267 5.55953C29.9836 6.35108 30.458 7.27766 30.7161 8.27335C30.9742 9.26904 31.0096 10.3094 30.82 11.3203C30.7665 11.5898 30.7691 11.8673 30.8276 12.1357C30.8861 12.4041 30.9992 12.6576 31.16 12.8803C31.3295 13.1083 31.5455 13.2975 31.7938 13.4355C32.0421 13.5734 32.3169 13.6569 32.6 13.6803V13.6803Z\" stroke=\"currentColor\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><\/path><\/svg>"
+          }
+        },
+        "1d015fc2-f3f9-40e6-9908-c0072a8fe8ab": {
+          "type": "collapse_product",
+          "settings": {
+            "collapse_head": "",
+            "collapse_title": "where is it made?",
+            "collapse_text": "<p>A family run, multi generation fashion house located in the heart of the denim capital of Italy. Artisans who have been with the company for decades handcraft every pair with a level of expertise and genius second to none. A smaller operation than the majority of factories we have considered, you can feel the love, care, and passion in every stitch, and find Father, Son, Daughter, Mother, cousins, and even grandmother at the facility running the show every day.<\/p>",
+            "collapse_svg": "<svg class=\"theme-icon\" width=\"100%\" height=\"100%\" viewbox=\"0 0 48 48\" fill=\"none\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\"><path d=\"M24 1.44034C27.9782 1.44034 31.7936 3.02069 34.6066 5.83374C37.4196 8.64678 39 12.4621 39 16.4403C39 23.5343 28 41.2023 24.842 46.1403C24.7515 46.2815 24.627 46.3977 24.4799 46.4782C24.3327 46.5587 24.1677 46.6009 24 46.6009C23.8323 46.6009 23.6673 46.5587 23.5201 46.4782C23.373 46.3977 23.2485 46.2815 23.158 46.1403C20 41.2043 9 23.5343 9 16.4403C9 12.4621 10.5804 8.64678 13.3934 5.83374C16.2064 3.02069 20.0218 1.44034 24 1.44034V1.44034Z\" stroke=\"currentColor\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><\/path>\n<path d=\"M18 16.4403C18 18.0316 18.6321 19.5578 19.7574 20.683C20.8826 21.8082 22.4087 22.4403 24 22.4403C25.5913 22.4403 27.1174 21.8082 28.2426 20.683C29.3679 19.5578 30 18.0316 30 16.4403C30 14.849 29.3679 13.3229 28.2426 12.1977C27.1174 11.0725 25.5913 10.4403 24 10.4403C22.4087 10.4403 20.8826 11.0725 19.7574 12.1977C18.6321 13.3229 18 14.849 18 16.4403Z\" stroke=\"currentColor\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><\/path><\/svg>"
+          }
+        },
+        "950e5085-46a4-4ccb-a379-3929e3f46178": {
+          "type": "collapse_product",
+          "settings": {
+            "collapse_head": "",
+            "collapse_title": "where do we ship?",
+            "collapse_text": "<p>For a flat rate of $5 we ship internationally to over 100 countries from our distribution centre in the Netherlands. We are currently in the process of expanding our fulfillment centre locations to speed up the process, but as of right now expect approximately 2-4 days in Europe, and 5-7 days to the rest of the world. You will be provided shipping information as soon as your package is dispatched.<\/p>",
+            "collapse_svg": "<svg class=\"theme-icon\" width=\"100%\" height=\"100%\" viewbox=\"0 0 48 48\" fill=\"none\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\"><path d=\"M47 23.9023C47.0016 26.9327 46.4063 29.9337 45.248 32.7341C44.0898 35.5344 42.3914 38.0791 40.2497 40.223C38.108 42.367 35.565 44.0681 32.7659 45.2292C29.9668 46.3903 26.9664 46.9888 23.936 46.9903C17.7866 46.8882 11.9265 44.3614 7.63096 39.9599C3.33543 35.5584 0.952219 29.6384 1 23.4883C1.00493 17.6098 3.31111 11.9668 7.42483 7.76753C11.5385 3.56821 17.1328 1.14631 23.01 1.02034C23.342 1.00634 23.674 1.00034 24.01 1.00034C27.0263 0.983976 30.0159 1.56454 32.8069 2.70859C35.5978 3.85264 38.1348 5.53757 40.2717 7.66632C42.4086 9.79507 44.1033 12.3256 45.258 15.1121C46.4128 17.8986 47.0048 20.886 47 23.9023V23.9023Z\" stroke=\"currentColor\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><\/path>\n<path d=\"M23.01 1.02034C11.01 14.0203 11.01 30.9803 23.01 46.9803\" stroke=\"currentColor\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><\/path>\n<path d=\"M25.01 1.02034C37.01 14.0203 37.01 30.9743 25.01 46.9743\" stroke=\"currentColor\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><\/path>\n<path d=\"M4.772 10.9883H43.04\" stroke=\"currentColor\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><\/path>\n<path d=\"M1.00601 22.9883H47\" stroke=\"currentColor\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><\/path>\n<path d=\"M3.97 34.9883H44.17\" stroke=\"currentColor\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><\/path><\/svg>"
+          }
+        },
+        "13db27d0-430e-4e79-bc3b-6e779d2ba393": {
+          "type": "collapse_product",
+          "settings": {
+            "collapse_head": "",
+            "collapse_title": "returns & exchanges",
+            "collapse_text": "<p>See Returns Policy Page - TLDR: If there's a problem we will help you resolve it.<\/p>",
+            "collapse_svg": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->\n\n<svg version=\"1.1\" id=\"Layer_1\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\" x=\"0px\" y=\"0px\" width=\"64px\" height=\"64px\" viewbox=\"0 0 64 64\" enable-background=\"new 0 0 64 64\" xmlns:xlink=\"http:\/\/www.w3.org\/1999\/xlink\" xml:space=\"preserve\">\n<g>\n\t<path fill=\"none\" stroke=\"#000000\" stroke-width=\"2\" stroke-miterlimit=\"10\" d=\"M33,1c7.678,0,15.354,2.929,21.212,8.787\n\t\tC64.91,20.484,65.841,37.248,57.003,49l-6.001,6.002\"><\/path>\n<\/g>\n<g>\n\t<path fill=\"none\" stroke=\"#000000\" stroke-width=\"2\" stroke-miterlimit=\"10\" d=\"M31,63c-7.678,0-15.354-2.929-21.212-8.787\n\t\tC-0.91,43.516-1.841,26.752,6.997,15l6.001-6.002\"><\/path>\n<\/g>\n<polyline fill=\"none\" stroke=\"#000000\" stroke-width=\"2\" stroke-linejoin=\"bevel\" stroke-miterlimit=\"10\" points=\"51,44 51,55 \n\t62,55 \"><\/polyline>\n<polyline fill=\"none\" stroke=\"#000000\" stroke-width=\"2\" stroke-linejoin=\"bevel\" stroke-miterlimit=\"10\" points=\"13,20 13,9 2,9 \n\t\"><\/polyline>\n<\/svg>"
+          }
+        },
+        "99954d78-c938-46bd-b9e4-1243288545cc": {
+          "type": "collapse_product",
+          "settings": {
+            "collapse_head": "",
+            "collapse_title": "75 trees protected per pair",
+            "collapse_text": "<p>slø and One Tribe are working together to protect rainforest with every purchase you make. Now when you purchase from slø you automatically save trees in the rainforest and help improve the carbon footprint of your purchase.<\/p><p>slø is participating in the United Nations Framework for Climate Change to adopt the UN Sustainability Goals. Working together as one tribe to help fight climate change together.<\/p><p>We protected more than 1,119,975 trees with your help!<\/p><p><a href=\"https:\/\/brands.onetribeglobal.com\/slo_co\" target=\"_blank\" title=\"https:\/\/brands.onetribeglobal.com\/slo_co\">Learn more about our sustainability pledge<\/a><\/p>",
+            "collapse_svg": "<svg class=\"theme-icon\" width=\"100%\" height=\"100%\" viewbox=\"0 0 48 48\" fill=\"none\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\"><path d=\"M31.54 39.1203C28.1829 41.0269 24.4002 42.0586 20.54 42.1203C17.3848 42.1163 14.3113 41.1174 11.7566 39.2657C9.20189 37.4141 7.2961 34.8041 6.31033 31.8069C5.32455 28.8097 5.30898 25.5779 6.26583 22.5713C7.22269 19.5648 9.10325 16.9365 11.64 15.0603C11.64 15.0603 16.54 10.1203 28.54 10.1203C34.0819 10.3976 39.5794 9.0041 44.32 6.12034C44.4677 6.04156 44.6326 6.00034 44.8 6.00034C44.9674 6.00034 45.1323 6.04156 45.28 6.12034C45.432 6.1836 45.5652 6.28489 45.6668 6.41448C45.7684 6.54407 45.8349 6.69761 45.86 6.86034C46.78 12.1603 48.34 29.8803 31.54 39.1203Z\" stroke=\"currentColor\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><\/path>\n<path d=\"M26.54 23.1203C20.3298 24.8361 14.5097 27.736 9.39999 31.6603L1.62 38.3003\" stroke=\"currentColor\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><\/path><\/svg>"
+          }
+        },
+        "7e65501d-8717-42eb-838e-e4b31aa1f900": {
+          "type": "collapse_product",
+          "settings": {
+            "collapse_head": "",
+            "collapse_title": "innovation policy",
+            "collapse_text": "<p>We are a constantly evolving project, and we like to be completely transparent about that. We spend a ridiculous amount of time, energy, and money on research and development and with that comes split second decisions and changes. We are constantly trying to improve and develop the product, so you may see minor changes between product photography and the final product. Now, they won’t end up being pink instead of blue, but a button, zipper, tag, or cut may end up with minor adjustments if our designers feel its an upgrade! We will always let you know via e-mail if anything changes, and we like to be completely transparent about our improvements.<\/p>",
+            "collapse_svg": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->\n\n<svg version=\"1.0\" id=\"Layer_1\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\" x=\"0px\" y=\"0px\" width=\"64px\" height=\"64px\" viewbox=\"0 0 64 64\" enable-background=\"new 0 0 64 64\" xmlns:xlink=\"http:\/\/www.w3.org\/1999\/xlink\" xml:space=\"preserve\">\n<g>\n\t<polyline fill=\"none\" stroke=\"#000000\" stroke-width=\"2\" stroke-miterlimit=\"10\" points=\"29,6 46,6 63,27 32,58 1,27 18,6 32,6 \n\t\t32,58 \t\"><\/polyline>\n\t<polyline fill=\"none\" stroke=\"#000000\" stroke-width=\"2\" stroke-miterlimit=\"10\" points=\"32,57 18,27 24,6 \t\"><\/polyline>\n\t<polyline fill=\"none\" stroke=\"#000000\" stroke-width=\"2\" stroke-miterlimit=\"10\" points=\"32,57 46,27 40,6 \t\"><\/polyline>\n\t<line fill=\"none\" stroke=\"#000000\" stroke-width=\"2\" stroke-miterlimit=\"10\" x1=\"1\" y1=\"27\" x2=\"63\" y2=\"27\"><\/line>\n<\/g>\n<\/svg>"
+          }
+        },
+        "1a31b92e-eca9-46eb-bed0-242da2aa30ea": {
+          "type": "images-with-text-slider",
+          "settings": {
+            "title": "",
+            "gallery_aspect": "1",
+            "image1": "shopify:\/\/shop_images\/Untitled_1000_x_1000_px_1.png",
+            "image1_title": "Adjustable waistband",
+            "image1_caption": "<p>Our most requested feature! Pull your jeans in, or out approx. 2 inches with the side snaps. <\/p>",
+            "image2": "shopify:\/\/shop_images\/the_slow_fashion_timeline_800_x_700_px_1.jpg",
+            "image2_title": "Reinforced thighs",
+            "image2_caption": "<p>Built with a heavy duty gusset built to provide a better fit, feel, and lifespan<\/p>",
+            "image3": "shopify:\/\/shop_images\/Untitled_design_6_e39923d8-03a5-43d7-b04a-6bc61c2d5a11.jpg",
+            "image3_title": "The greatest pockets",
+            "image3_caption": "<p>We promised you the greatest pockets in the history of the universe, we delivered. <\/p>",
+            "image4": "shopify:\/\/shop_images\/the_slow_fashion_timeline_800_x_700_px_1.jpg",
+            "image4_title": "x belt loop = no gapping",
+            "image4_caption": "<p>Designed to prevent gaping, and keep your belt firmly in place.<\/p>",
+            "image5": "shopify:\/\/shop_images\/5_e57dfb1a-1b1d-4087-80dd-222c678b99a0.jpg",
+            "image5_title": "hip gusset = more comfort",
+            "image5_caption": "<p>The key to the perfect fit, our outer gussets are reinventing the traditional waistband, allowing for a contoured fit<\/p>",
+            "image6": "shopify:\/\/shop_images\/the_slow_fashion_timeline_800_x_700_px_2.jpg",
+            "image6_title": "allergen free metals",
+            "image6_caption": "<p>All of our rivets, buttons, zippers, and snaps are allergen free and sourced responsibly in Los Angeles.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "header",
+        "variant_picker",
+        "211f92be-1727-4658-9e54-f83f6d3b5c05",
+        "buy_buttons",
+        "pickup_avaiability",
+        "description",
+        "9747ca3e-8039-4824-9e7c-9689bf83b243",
+        "1d015fc2-f3f9-40e6-9908-c0072a8fe8ab",
+        "950e5085-46a4-4ccb-a379-3929e3f46178",
+        "13db27d0-430e-4e79-bc3b-6e779d2ba393",
+        "99954d78-c938-46bd-b9e4-1243288545cc",
+        "7e65501d-8717-42eb-838e-e4b31aa1f900",
+        "1a31b92e-eca9-46eb-bed0-242da2aa30ea"
+      ],
+      "settings": {
+        "media_aspect": "1",
+        "enable_zoom": true,
+        "enable_video_looping": false
+      }
+    },
+    "1c6c226c-6220-43be-88fc-53ddee8f43be": {
+      "type": "logos",
+      "blocks": {
+        "2ccb9029-9f01-4aa8-b701-c23b6824f05d": {
+          "type": "blocks_logo",
+          "settings": {
+            "logo_img": "shopify:\/\/shop_images\/Untitled_design_79.png",
+            "logo_svg": "",
+            "block_link": "",
+            "width_image_d": 160,
+            "height_image_d": 200,
+            "width_image_m": 100,
+            "height_image_m": 200
+          }
+        },
+        "template--16510209720575__1c6c226c-6220-43be-88fc-53ddee8f43be-1665233694a5d4b76d-0": {
+          "type": "blocks_logo",
+          "settings": {
+            "logo_img": "shopify:\/\/shop_images\/BC-Logo_Black_Landscape-300x128-1.png",
+            "logo_svg": "",
+            "block_link": "",
+            "width_image_d": 130,
+            "height_image_d": 52,
+            "width_image_m": 100,
+            "height_image_m": 20
+          }
+        },
+        "5f2306e4-ac03-4830-b78b-3fdb68160332": {
+          "type": "blocks_logo",
+          "settings": {
+            "logo_img": "shopify:\/\/shop_images\/Untitled_design_78.png",
+            "logo_svg": "",
+            "block_link": "",
+            "width_image_d": 140,
+            "height_image_d": 200,
+            "width_image_m": 100,
+            "height_image_m": 200
+          }
+        },
+        "0c1605b9-0285-483c-91eb-f87a38902265": {
+          "type": "blocks_logo",
+          "settings": {
+            "logo_img": "shopify:\/\/shop_images\/Biodegradable-logo.png",
+            "logo_svg": "",
+            "block_link": "",
+            "width_image_d": 100,
+            "height_image_d": 200,
+            "width_image_m": 55,
+            "height_image_m": 30
+          }
+        },
+        "9034a603-464c-4083-91bc-2d95ec8b8ad0": {
+          "type": "blocks_logo",
+          "settings": {
+            "logo_img": "shopify:\/\/shop_images\/Untitled_design_81.png",
+            "logo_svg": "",
+            "block_link": "",
+            "width_image_d": 120,
+            "height_image_d": 200,
+            "width_image_m": 70,
+            "height_image_m": 200
+          }
+        }
+      },
+      "block_order": [
+        "2ccb9029-9f01-4aa8-b701-c23b6824f05d",
+        "template--16510209720575__1c6c226c-6220-43be-88fc-53ddee8f43be-1665233694a5d4b76d-0",
+        "5f2306e4-ac03-4830-b78b-3fdb68160332",
+        "0c1605b9-0285-483c-91eb-f87a38902265",
+        "9034a603-464c-4083-91bc-2d95ec8b8ad0"
+      ],
+      "settings": {
+        "range_columns_d": 5,
+        "range_columns_m": 5
+      }
+    },
+    "80bb8807-51ae-4bb0-8a15-0314eecdbdb8": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16510209720575__80bb8807-51ae-4bb0-8a15-0314eecdbdb8-166566875286dfe961-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "we created slø because we care",
+            "heading_size": "h3"
+          }
+        },
+        "template--16510209720575__80bb8807-51ae-4bb0-8a15-0314eecdbdb8-166566875286dfe961-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Built on the suggestions of over 700,000 humans from around the world, and the crown jewel of the #pocketrevolution, 22,000,000 views, 5,500,000 likes, 500,000 comments, and 700,000 followers later, the “Tik-Tok” jeans are finally here. It’s not skinny, but it’s not straight, a functional, all-encompassing cut powered by our sizeYOU sizing system. <em>Handcrafted in Italy<\/em> using BCI-certified cotton, these jeans are the grooviest pants on planet Earth, made specifically for you, and ready to take the world by storm.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16510209720575__80bb8807-51ae-4bb0-8a15-0314eecdbdb8-166566875286dfe961-0",
+        "template--16510209720575__80bb8807-51ae-4bb0-8a15-0314eecdbdb8-166566875286dfe961-1"
+      ],
+      "settings": {
+        "text_alignment": "left"
+      }
+    },
+    "dee977fd-d37a-4477-958c-5642a7583676": {
+      "type": "images-with-text-slider",
+      "blocks": {
+        "template--16510209720575__dee977fd-d37a-4477-958c-5642a7583676-166566875113741834-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/12.jpg",
+            "heading": "our fabric",
+            "description": "<p>Our BCI certified fabric is 99% Cotton, but that doesn’t change the fact that it's gloriously stretchy. Designed to last a lifetime because longevity = sustainability<\/p>"
+          }
+        },
+        "template--16510209720575__dee977fd-d37a-4477-958c-5642a7583676-166566875113741834-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/the_slow_fashion_timeline_800_x_700_px_2.jpg",
+            "heading": "dying process",
+            "description": "<p>We're very fortunate to be working with one of the most well respected laundry and dye house in Italy. they use the top of the line washing machinery to reduce water waste by up to 90%.<\/p>"
+          }
+        },
+        "template--16510209720575__dee977fd-d37a-4477-958c-5642a7583676-166566875113741834-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/6.jpg",
+            "heading": "cut & sew",
+            "description": "<p>A family run, multi generation fashion house located in the heart of the denim capital of Italy. You can feel the love, care, and passion in every stitch.<\/p>"
+          }
+        },
+        "template--16510209720575__dee977fd-d37a-4477-958c-5642a7583676-166566875113741834-3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/i.shgcdn.webp",
+            "heading": "shipping",
+            "description": "<p>slø is a plastic free company, we strictly use biodegradable packaging, and do not wrap our jeans in any sort of plastic.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16510209720575__dee977fd-d37a-4477-958c-5642a7583676-166566875113741834-0",
+        "template--16510209720575__dee977fd-d37a-4477-958c-5642a7583676-166566875113741834-1",
+        "template--16510209720575__dee977fd-d37a-4477-958c-5642a7583676-166566875113741834-2",
+        "template--16510209720575__dee977fd-d37a-4477-958c-5642a7583676-166566875113741834-3"
+      ],
+      "settings": {
+        "title": "sustainability at every step",
+        "gallery_aspect": "1"
+      }
+    },
+    "6536fd06-559d-4ff3-90d7-b7d12e592adb": {
+      "type": "toggles-with-icons",
+      "blocks": {
+        "f239e3b1-b761-4504-8d8e-5c8d0d0b0c8f": {
+          "type": "text",
+          "settings": {
+            "title": "what is slow fashion?",
+            "body": "<p>The antithesis of fast fashion of course! Fast Fashion is the concept of mass-producing cheap and trendy clothing with weekly releases all year, resulting is massive stockpiles o waste that end up in landfills or incinerated, directly dumping carbon into the atmosphere. Fast fashion companies sell their clothing at such a low cost they often use materials unfit for clothing and use facilities with zero regard for human cost by extremely low cost or slave labor.<\/p><p>Slow fashion is different, we don’t mass produce in 52 season cycles. We operate with a zero waste model by only producing the clothes you order. We focus on staple clothing, timeless styles not cheap trends that go out of style in a few months. We only use materials that are grown, milled, and produced sustainably, including the ethical treatment of factory workers.<\/p>",
+            "select_icon": "none",
+            "image": "shopify:\/\/shop_images\/the_slow_fashion_timeline_800_x_2000_px_700_x_1000_px.png",
+            "svg_icon": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->\n\n<svg version=\"1.1\" id=\"Layer_1\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\" x=\"0px\" y=\"0px\" width=\"64px\" height=\"64px\" viewbox=\"0 0 64 64\" enable-background=\"new 0 0 64 64\" xmlns:xlink=\"http:\/\/www.w3.org\/1999\/xlink\" xml:space=\"preserve\">\n<path fill=\"none\" stroke=\"#000000\" stroke-width=\"2\" stroke-miterlimit=\"10\" d=\"M53.92,10.081c12.107,12.105,12.107,31.732,0,43.838\n\tc-12.106,12.108-31.734,12.108-43.84,0c-12.107-12.105-12.107-31.732,0-43.838C22.186-2.027,41.813-2.027,53.92,10.081z\"><\/path>\n<line stroke=\"#000000\" stroke-width=\"2\" stroke-miterlimit=\"10\" x1=\"30\" y1=\"43\" x2=\"30\" y2=\"47\"><\/line>\n<path fill=\"none\" stroke=\"#000000\" stroke-width=\"2\" stroke-miterlimit=\"10\" d=\"M24,21c0-3,2-5,8-5c5,0,8,3,8,7s-6,7-6,7s-4,2-4,8v1\n\t\"><\/path>\n<\/svg>"
+          }
+        },
+        "d5c8a7fd-322c-4e96-bd81-d21d33a54337": {
+          "type": "text",
+          "settings": {
+            "title": "do you do returns?",
+            "body": "<p>We’re all humans and we’ve got your back! Our customer service team will work with you on a case by case basis in order to figure out how we can provide you the best possible customer service and come to a resolution! <\/p><p>Returns & Exchanges are one of the least sustainable parts of e-commerce, which is why we’ve invested so heavily in our sizing technology, the quality of the product, and our design. We are confident we will get you a fantastic fit and that you will love the product.<\/p><p>Please see <a href=\"\/pages\/returns-privacy-and-terms-of-service\" title=\"Returns, Privacy, and terms of service\">the return policy<\/a>.<\/p>",
+            "select_icon": "none",
+            "svg_icon": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->\n\n<svg version=\"1.1\" id=\"Layer_1\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\" x=\"0px\" y=\"0px\" width=\"64px\" height=\"64px\" viewbox=\"0 0 64 64\" enable-background=\"new 0 0 64 64\" xmlns:xlink=\"http:\/\/www.w3.org\/1999\/xlink\" xml:space=\"preserve\">\n<path fill=\"none\" stroke=\"#000000\" stroke-width=\"2\" stroke-miterlimit=\"10\" d=\"M53.92,10.081c12.107,12.105,12.107,31.732,0,43.838\n\tc-12.106,12.108-31.734,12.108-43.84,0c-12.107-12.105-12.107-31.732,0-43.838C22.186-2.027,41.813-2.027,53.92,10.081z\"><\/path>\n<line stroke=\"#000000\" stroke-width=\"2\" stroke-miterlimit=\"10\" x1=\"30\" y1=\"43\" x2=\"30\" y2=\"47\"><\/line>\n<path fill=\"none\" stroke=\"#000000\" stroke-width=\"2\" stroke-miterlimit=\"10\" d=\"M24,21c0-3,2-5,8-5c5,0,8,3,8,7s-6,7-6,7s-4,2-4,8v1\n\t\"><\/path>\n<\/svg>"
+          }
+        },
+        "84bf3845-995f-4b9a-8a42-45cc6e30f3d6": {
+          "type": "text",
+          "settings": {
+            "title": "are there other cuts?",
+            "body": "<p>this is our soft launch, essentially our trial run to ensure we can keep up with demand and ensure our supply chain is functioning at max capacity.<\/p><p>With that being said more cuts, colors, and rise options will be available in our next launch! So if this isn't your style we will have some different options<\/p>",
+            "select_icon": "none",
+            "svg_icon": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->\n\n<svg version=\"1.1\" id=\"Layer_1\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\" x=\"0px\" y=\"0px\" width=\"64px\" height=\"64px\" viewbox=\"0 0 64 64\" enable-background=\"new 0 0 64 64\" xmlns:xlink=\"http:\/\/www.w3.org\/1999\/xlink\" xml:space=\"preserve\">\n<path fill=\"none\" stroke=\"#000000\" stroke-width=\"2\" stroke-miterlimit=\"10\" d=\"M53.92,10.081c12.107,12.105,12.107,31.732,0,43.838\n\tc-12.106,12.108-31.734,12.108-43.84,0c-12.107-12.105-12.107-31.732,0-43.838C22.186-2.027,41.813-2.027,53.92,10.081z\"><\/path>\n<line stroke=\"#000000\" stroke-width=\"2\" stroke-miterlimit=\"10\" x1=\"30\" y1=\"43\" x2=\"30\" y2=\"47\"><\/line>\n<path fill=\"none\" stroke=\"#000000\" stroke-width=\"2\" stroke-miterlimit=\"10\" d=\"M24,21c0-3,2-5,8-5c5,0,8,3,8,7s-6,7-6,7s-4,2-4,8v1\n\t\"><\/path>\n<\/svg>"
+          }
+        },
+        "3275fd6a-bd57-4b3f-a6f8-92721b831dce": {
+          "type": "text",
+          "settings": {
+            "title": "how stretchy are they?",
+            "body": "<p>a glorious, buttery, 44% stretch with a dense but light 10.5oz fabric that hold's it's shape beautifully.<\/p>",
+            "select_icon": "none",
+            "svg_icon": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->\n\n<svg version=\"1.1\" id=\"Layer_1\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\" x=\"0px\" y=\"0px\" width=\"64px\" height=\"64px\" viewbox=\"0 0 64 64\" enable-background=\"new 0 0 64 64\" xmlns:xlink=\"http:\/\/www.w3.org\/1999\/xlink\" xml:space=\"preserve\">\n<path fill=\"none\" stroke=\"#000000\" stroke-width=\"2\" stroke-miterlimit=\"10\" d=\"M53.92,10.081c12.107,12.105,12.107,31.732,0,43.838\n\tc-12.106,12.108-31.734,12.108-43.84,0c-12.107-12.105-12.107-31.732,0-43.838C22.186-2.027,41.813-2.027,53.92,10.081z\"><\/path>\n<line stroke=\"#000000\" stroke-width=\"2\" stroke-miterlimit=\"10\" x1=\"30\" y1=\"43\" x2=\"30\" y2=\"47\"><\/line>\n<path fill=\"none\" stroke=\"#000000\" stroke-width=\"2\" stroke-miterlimit=\"10\" d=\"M24,21c0-3,2-5,8-5c5,0,8,3,8,7s-6,7-6,7s-4,2-4,8v1\n\t\"><\/path>\n<\/svg>"
+          }
+        },
+        "fe9dbfcb-2d54-4a20-a376-20d16c0c98e8": {
+          "type": "text",
+          "settings": {
+            "title": "how do I get sized?",
+            "body": "<p>Head over to <a href=\"\/pages\/your-sizing-options\" title=\"get your slø size\">our sizing page<\/a> to watch Zeena show you how to take your own measurements, take a friends measurements, and use our sizing software, 3D Look to get those measurements. <a href=\"\/pages\/your-sizing-options\" title=\"get your slø size\">Click here for the sizing page<\/a>.<\/p>",
+            "select_icon": "none",
+            "svg_icon": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->\n\n<svg version=\"1.1\" id=\"Layer_1\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\" x=\"0px\" y=\"0px\" width=\"64px\" height=\"64px\" viewbox=\"0 0 64 64\" enable-background=\"new 0 0 64 64\" xmlns:xlink=\"http:\/\/www.w3.org\/1999\/xlink\" xml:space=\"preserve\">\n<path fill=\"none\" stroke=\"#000000\" stroke-width=\"2\" stroke-miterlimit=\"10\" d=\"M53.92,10.081c12.107,12.105,12.107,31.732,0,43.838\n\tc-12.106,12.108-31.734,12.108-43.84,0c-12.107-12.105-12.107-31.732,0-43.838C22.186-2.027,41.813-2.027,53.92,10.081z\"><\/path>\n<line stroke=\"#000000\" stroke-width=\"2\" stroke-miterlimit=\"10\" x1=\"30\" y1=\"43\" x2=\"30\" y2=\"47\"><\/line>\n<path fill=\"none\" stroke=\"#000000\" stroke-width=\"2\" stroke-miterlimit=\"10\" d=\"M24,21c0-3,2-5,8-5c5,0,8,3,8,7s-6,7-6,7s-4,2-4,8v1\n\t\"><\/path>\n<\/svg>"
+          }
+        },
+        "bcab3a69-f083-4c6b-9233-b7c91e8a8172": {
+          "type": "text",
+          "settings": {
+            "title": "why Italy?",
+            "body": "<p>Not only are our jeans made from sustainable materials, but we travelled all over the world to hand select the most ethical manufacturer we could find to produce them. We take a firm stance on not sacrificing an ounce of our ethics here.<\/p><p>We landed on a family owned and operated facility in Napoli, and when we say operated we don’t mean the family members sit in an office, the dad runs the business, the son is the pattern maker, daughter is the stylist\/designer, and grandma manages the sewing team. Our jeans will be touched by every member of the family. They treat all of their employees like family because a lot their employees are also family! We’ll introduce you to them really soon<\/p>",
+            "select_icon": "none",
+            "svg_icon": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->\n\n<svg version=\"1.1\" id=\"Layer_1\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\" x=\"0px\" y=\"0px\" width=\"64px\" height=\"64px\" viewbox=\"0 0 64 64\" enable-background=\"new 0 0 64 64\" xmlns:xlink=\"http:\/\/www.w3.org\/1999\/xlink\" xml:space=\"preserve\">\n<path fill=\"none\" stroke=\"#000000\" stroke-width=\"2\" stroke-miterlimit=\"10\" d=\"M53.92,10.081c12.107,12.105,12.107,31.732,0,43.838\n\tc-12.106,12.108-31.734,12.108-43.84,0c-12.107-12.105-12.107-31.732,0-43.838C22.186-2.027,41.813-2.027,53.92,10.081z\"><\/path>\n<line stroke=\"#000000\" stroke-width=\"2\" stroke-miterlimit=\"10\" x1=\"30\" y1=\"43\" x2=\"30\" y2=\"47\"><\/line>\n<path fill=\"none\" stroke=\"#000000\" stroke-width=\"2\" stroke-miterlimit=\"10\" d=\"M24,21c0-3,2-5,8-5c5,0,8,3,8,7s-6,7-6,7s-4,2-4,8v1\n\t\"><\/path>\n<\/svg>"
+          }
+        },
+        "b26d2213-de2a-4ac3-adee-93c87d6e1a2d": {
+          "type": "text",
+          "settings": {
+            "title": "what is sizeYOU?",
+            "body": "<p>our proprietary sizing system powered by tens of thousands of data points, our size system its built to fit YOU, because thats what clothes should do! We are starting with over 100 size variations in V1, and will continue to scale as we add, learn, and develop new ways to size.<\/p>",
+            "select_icon": "none",
+            "svg_icon": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->\n\n<svg version=\"1.1\" id=\"Layer_1\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\" x=\"0px\" y=\"0px\" width=\"64px\" height=\"64px\" viewbox=\"0 0 64 64\" enable-background=\"new 0 0 64 64\" xmlns:xlink=\"http:\/\/www.w3.org\/1999\/xlink\" xml:space=\"preserve\">\n<path fill=\"none\" stroke=\"#000000\" stroke-width=\"2\" stroke-miterlimit=\"10\" d=\"M53.92,10.081c12.107,12.105,12.107,31.732,0,43.838\n\tc-12.106,12.108-31.734,12.108-43.84,0c-12.107-12.105-12.107-31.732,0-43.838C22.186-2.027,41.813-2.027,53.92,10.081z\"><\/path>\n<line stroke=\"#000000\" stroke-width=\"2\" stroke-miterlimit=\"10\" x1=\"30\" y1=\"43\" x2=\"30\" y2=\"47\"><\/line>\n<path fill=\"none\" stroke=\"#000000\" stroke-width=\"2\" stroke-miterlimit=\"10\" d=\"M24,21c0-3,2-5,8-5c5,0,8,3,8,7s-6,7-6,7s-4,2-4,8v1\n\t\"><\/path>\n<\/svg>"
+          }
+        },
+        "c1974e85-6bfd-42e9-99a5-68c06c710def": {
+          "type": "text",
+          "settings": {
+            "title": "will they shrink?",
+            "body": "<p>The fabric is preshrunk and washed extensively prior to delivery, however to extend the lifespan of the product we highly reccomend washing on cold and air drying, you will get years of added lifespan out of your denim<\/p>",
+            "select_icon": "none",
+            "svg_icon": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->\n\n<svg version=\"1.1\" id=\"Layer_1\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\" x=\"0px\" y=\"0px\" width=\"64px\" height=\"64px\" viewbox=\"0 0 64 64\" enable-background=\"new 0 0 64 64\" xmlns:xlink=\"http:\/\/www.w3.org\/1999\/xlink\" xml:space=\"preserve\">\n<path fill=\"none\" stroke=\"#000000\" stroke-width=\"2\" stroke-miterlimit=\"10\" d=\"M53.92,10.081c12.107,12.105,12.107,31.732,0,43.838\n\tc-12.106,12.108-31.734,12.108-43.84,0c-12.107-12.105-12.107-31.732,0-43.838C22.186-2.027,41.813-2.027,53.92,10.081z\"><\/path>\n<line stroke=\"#000000\" stroke-width=\"2\" stroke-miterlimit=\"10\" x1=\"30\" y1=\"43\" x2=\"30\" y2=\"47\"><\/line>\n<path fill=\"none\" stroke=\"#000000\" stroke-width=\"2\" stroke-miterlimit=\"10\" d=\"M24,21c0-3,2-5,8-5c5,0,8,3,8,7s-6,7-6,7s-4,2-4,8v1\n\t\"><\/path>\n<\/svg>"
+          }
+        },
+        "80355c5a-97fa-4c1c-9c0f-d0f0892155fb": {
+          "type": "text",
+          "settings": {
+            "title": "how does the ticket system work?",
+            "body": "<p>Please see <a href=\"\/pages\/tickets\" title=\"tickets\">the ticket page<\/a> for the full explanation!<\/p>",
+            "select_icon": "none",
+            "svg_icon": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->\n\n<svg version=\"1.1\" id=\"Layer_1\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\" x=\"0px\" y=\"0px\" width=\"64px\" height=\"64px\" viewbox=\"0 0 64 64\" enable-background=\"new 0 0 64 64\" xmlns:xlink=\"http:\/\/www.w3.org\/1999\/xlink\" xml:space=\"preserve\">\n<path fill=\"none\" stroke=\"#000000\" stroke-width=\"2\" stroke-miterlimit=\"10\" d=\"M53.92,10.081c12.107,12.105,12.107,31.732,0,43.838\n\tc-12.106,12.108-31.734,12.108-43.84,0c-12.107-12.105-12.107-31.732,0-43.838C22.186-2.027,41.813-2.027,53.92,10.081z\"><\/path>\n<line stroke=\"#000000\" stroke-width=\"2\" stroke-miterlimit=\"10\" x1=\"30\" y1=\"43\" x2=\"30\" y2=\"47\"><\/line>\n<path fill=\"none\" stroke=\"#000000\" stroke-width=\"2\" stroke-miterlimit=\"10\" d=\"M24,21c0-3,2-5,8-5c5,0,8,3,8,7s-6,7-6,7s-4,2-4,8v1\n\t\"><\/path>\n<\/svg>"
+          }
+        },
+        "e613a993-3c96-490e-bb18-9ed006f52b72": {
+          "type": "text",
+          "settings": {
+            "title": "I still have a question!",
+            "body": "<p>Please <a href=\"\/pages\/contact\" title=\"Contact\">reach out to us<\/a> and we will do our best to help you.<\/p>",
+            "select_icon": "none",
+            "svg_icon": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->\n\n<svg version=\"1.1\" id=\"Layer_1\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\" x=\"0px\" y=\"0px\" width=\"64px\" height=\"64px\" viewbox=\"0 0 64 64\" enable-background=\"new 0 0 64 64\" xmlns:xlink=\"http:\/\/www.w3.org\/1999\/xlink\" xml:space=\"preserve\">\n<path fill=\"none\" stroke=\"#000000\" stroke-width=\"2\" stroke-miterlimit=\"10\" d=\"M53.92,10.081c12.107,12.105,12.107,31.732,0,43.838\n\tc-12.106,12.108-31.734,12.108-43.84,0c-12.107-12.105-12.107-31.732,0-43.838C22.186-2.027,41.813-2.027,53.92,10.081z\"><\/path>\n<line stroke=\"#000000\" stroke-width=\"2\" stroke-miterlimit=\"10\" x1=\"30\" y1=\"43\" x2=\"30\" y2=\"47\"><\/line>\n<path fill=\"none\" stroke=\"#000000\" stroke-width=\"2\" stroke-miterlimit=\"10\" d=\"M24,21c0-3,2-5,8-5c5,0,8,3,8,7s-6,7-6,7s-4,2-4,8v1\n\t\"><\/path>\n<\/svg>"
+          }
+        }
+      },
+      "block_order": [
+        "f239e3b1-b761-4504-8d8e-5c8d0d0b0c8f",
+        "d5c8a7fd-322c-4e96-bd81-d21d33a54337",
+        "84bf3845-995f-4b9a-8a42-45cc6e30f3d6",
+        "3275fd6a-bd57-4b3f-a6f8-92721b831dce",
+        "fe9dbfcb-2d54-4a20-a376-20d16c0c98e8",
+        "bcab3a69-f083-4c6b-9233-b7c91e8a8172",
+        "b26d2213-de2a-4ac3-adee-93c87d6e1a2d",
+        "c1974e85-6bfd-42e9-99a5-68c06c710def",
+        "80355c5a-97fa-4c1c-9c0f-d0f0892155fb",
+        "e613a993-3c96-490e-bb18-9ed006f52b72"
+      ],
+      "settings": {
+        "title": "any questions?"
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "settings": {
+        "heading": "You may also like",
+        "products_number": 3
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1c6c226c-6220-43be-88fc-53ddee8f43be",
+    "80bb8807-51ae-4bb0-8a15-0314eecdbdb8",
+    "dee977fd-d37a-4477-958c-5642a7583676",
+    "6536fd06-559d-4ff3-90d7-b7d12e592adb",
+    "product-recommendations"
+  ]
+}

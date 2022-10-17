@@ -1,0 +1,202 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "no_margins": true,
+        "reduced_margins": true
+      }
+    },
+    "d91c40a1-ce4c-4151-b6f2-962cafaa2463": {
+      "type": "image-with-text",
+      "disabled": true,
+      "blocks": {
+        "template--16591017443583__d91c40a1-ce4c-4151-b6f2-962cafaa2463-16660030625cb92505-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Measure yourself & submit your measurements",
+            "heading_size": "h2"
+          }
+        },
+        "template--16591017443583__d91c40a1-ce4c-4151-b6f2-962cafaa2463-16660030625cb92505-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>if you have a tape measure handy or you know your measurements, in 30 seconds you can submit a form to our sizing team who will match you to the perfect fit,<\/p><p><\/p><p>Recommended if you’d prefer to measure yourself, we’ll ask that you provide your waist, hip, thigh, and inseam measurements along with your fit preference. Recommended if you typically have a hard time finding the right fit with standard sizes at stores or other brands.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16591017443583__d91c40a1-ce4c-4151-b6f2-962cafaa2463-16660030625cb92505-0",
+        "template--16591017443583__d91c40a1-ce4c-4151-b6f2-962cafaa2463-16660030625cb92505-1"
+      ],
+      "settings": {
+        "layout": "right-alignment"
+      }
+    },
+    "b0ff8316-b15b-489f-913d-0446bb7d8968": {
+      "type": "text-columns-with-icons",
+      "disabled": true,
+      "blocks": {
+        "e606e1d9-2798-4ac0-8dad-b4843511d2bd": {
+          "type": "text-icon",
+          "settings": {
+            "title": "Text with icon",
+            "body": "<p>Share some useful information about shipping, returns or discounts.<\/p>",
+            "svg_icon": "",
+            "select_icon": "archive-box",
+            "button_text": "Press button text here",
+            "button_link": "",
+            "button_style": "primary"
+          }
+        },
+        "4af9ab49-9158-40fd-87ab-6f4648d54fc0": {
+          "type": "text-icon",
+          "settings": {
+            "title": "Text with icon",
+            "body": "<p>Share some useful information about shipping, returns or discounts.<\/p>",
+            "svg_icon": "",
+            "select_icon": "archive-box",
+            "button_text": "Press button text here",
+            "button_link": "",
+            "button_style": "primary"
+          }
+        },
+        "5c79f313-bfc7-4a50-8aaf-e8944f7d840c": {
+          "type": "text-icon",
+          "settings": {
+            "title": "Text with icon",
+            "body": "<p>Share some useful information about shipping, returns or discounts.<\/p>",
+            "svg_icon": "",
+            "select_icon": "archive-box",
+            "button_text": "Press button text here",
+            "button_link": "",
+            "button_style": "primary"
+          }
+        }
+      },
+      "block_order": [
+        "e606e1d9-2798-4ac0-8dad-b4843511d2bd",
+        "4af9ab49-9158-40fd-87ab-6f4648d54fc0",
+        "5c79f313-bfc7-4a50-8aaf-e8944f7d840c"
+      ],
+      "settings": {
+        "show_on_homepage": true,
+        "show_on_product": true,
+        "show_on_collection": true,
+        "show_on_blog": true,
+        "show_on_regular": true
+      }
+    },
+    "8bd9a18d-9d26-43bd-9bca-06d4aa2e6b16": {
+      "type": "images-with-text-slider",
+      "blocks": {
+        "template--16591017443583__8bd9a18d-9d26-43bd-9bca-06d4aa2e6b16-1666003062e4f5cb1b-0": {
+          "type": "image",
+          "settings": {
+            "heading": "Measure yourself",
+            "description": "<p>if you have a tape measure handy or you know your measurements, in 30 seconds you can submit a form to our sizing team who will match you to the perfect fit,<\/p>"
+          }
+        },
+        "template--16591017443583__8bd9a18d-9d26-43bd-9bca-06d4aa2e6b16-1666003062e4f5cb1b-1": {
+          "type": "image",
+          "settings": {
+            "heading": "Shop standard sizes",
+            "description": "<p>if you have a tape measure handy or you know your measurements, in 30 seconds you can submit a form to our sizing team who will match you to the perfect fit<\/p>"
+          }
+        },
+        "template--16591017443583__8bd9a18d-9d26-43bd-9bca-06d4aa2e6b16-1666003062e4f5cb1b-2": {
+          "type": "image",
+          "settings": {
+            "heading": "slø virtual tailor",
+            "description": "<p>Write about specific product features or store details.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16591017443583__8bd9a18d-9d26-43bd-9bca-06d4aa2e6b16-1666003062e4f5cb1b-0",
+        "template--16591017443583__8bd9a18d-9d26-43bd-9bca-06d4aa2e6b16-1666003062e4f5cb1b-1",
+        "template--16591017443583__8bd9a18d-9d26-43bd-9bca-06d4aa2e6b16-1666003062e4f5cb1b-2"
+      ],
+      "settings": {
+        "title": "",
+        "gallery_aspect": "1"
+      }
+    },
+    "0a3532a2-445e-4223-a4bd-702b06c40b6b": {
+      "type": "slider-vertical",
+      "disabled": true,
+      "blocks": {
+        "template--16591017443583__0a3532a2-445e-4223-a4bd-702b06c40b6b-166600306229805623-0": {
+          "type": "image",
+          "settings": {
+            "heading": "Measure yourself & submit your measurements",
+            "caption": "",
+            "button_label": "Explore all",
+            "button_link": "",
+            "video1": "",
+            "image1_caption": "<p>if you have a tape measure handy or you know your measurements, in 30 seconds you can submit a form to our sizing team who will match you to the perfect fit,<\/p>",
+            "image1_link": "",
+            "video2": "",
+            "image2_caption": "",
+            "image2_link": "",
+            "video3": "",
+            "image3_caption": "",
+            "image3_link": ""
+          }
+        },
+        "template--16591017443583__0a3532a2-445e-4223-a4bd-702b06c40b6b-166600306229805623-1": {
+          "type": "image",
+          "settings": {
+            "heading": "Write about yourself",
+            "caption": "Include some awesome images",
+            "button_label": "Learn more",
+            "button_link": "",
+            "video1": "",
+            "image1_caption": "",
+            "image1_link": "",
+            "video2": "",
+            "image2_caption": "",
+            "image2_link": "",
+            "video3": "",
+            "image3_caption": "",
+            "image3_link": ""
+          }
+        },
+        "template--16591017443583__0a3532a2-445e-4223-a4bd-702b06c40b6b-166600306229805623-2": {
+          "type": "image",
+          "settings": {
+            "heading": "Promote your products",
+            "caption": "Include various promotions and flash sales",
+            "button_label": "Shop now",
+            "button_link": "",
+            "video1": "",
+            "image1_caption": "",
+            "image1_link": "",
+            "video2": "",
+            "image2_caption": "",
+            "image2_link": "",
+            "video3": "",
+            "image3_caption": "",
+            "image3_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16591017443583__0a3532a2-445e-4223-a4bd-702b06c40b6b-166600306229805623-0",
+        "template--16591017443583__0a3532a2-445e-4223-a4bd-702b06c40b6b-166600306229805623-1",
+        "template--16591017443583__0a3532a2-445e-4223-a4bd-702b06c40b6b-166600306229805623-2"
+      ],
+      "settings": {
+        "text_size": "regular",
+        "blending_modes": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "d91c40a1-ce4c-4151-b6f2-962cafaa2463",
+    "b0ff8316-b15b-489f-913d-0446bb7d8968",
+    "8bd9a18d-9d26-43bd-9bca-06d4aa2e6b16",
+    "0a3532a2-445e-4223-a4bd-702b06c40b6b"
+  ]
+}
